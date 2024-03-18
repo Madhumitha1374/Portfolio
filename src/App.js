@@ -20,10 +20,6 @@ const approuter = createBrowserRouter([
         path : "/work",
         element : <MyWork/>,
       },
-      {
-        path : "/project",
-        element : <Project/>
-      }
     ]
 
   },

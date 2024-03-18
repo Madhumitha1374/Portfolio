@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        customFont: ['"cursive"','Sacramento'],
+        // Add more custom font families as needed
+      },
       keyframes: {
         typing: {
           "0%": {

@@ -1,6 +1,7 @@
 import { main } from "../utils/constants"
 import AboutMe from "./AboutMe"
-import ExpereinceSkills from "./ExpereinceSkills"
+import ContactMe from "./ContactMe"
+import { Footer } from "./Footer"
 import Projects from "./Projects"
 
 const MainContainer = () => {
@@ -21,8 +22,9 @@ const MainContainer = () => {
             </div>
         </div>
             <AboutMe/>
-            <ExpereinceSkills/>
             <Projects/>
+            <ContactMe/>
+            <Footer/>
         </div>
         
     )
